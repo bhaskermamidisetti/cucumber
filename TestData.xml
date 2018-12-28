@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<Project>
+
+    <Test>
+        <Urls>
+            <TestURL>https://testUrlHere.com</TestURL>
+        </Urls>
+    </Test>
+
+    <Stage>
+
+        <UI>
+            <AppURL>http://10.245.128.107/</AppURL>
+
+            <BinDetails>
+                <NewBinCreationCustomerAug1st>
+                    <Plant>plant1</Plant>
+                    <Floor>floor01</Floor>
+                    <Zone>zone01</Zone>
+                    <Row>rowentry01</Row>
+                    <Column>columnentry1</Column>
+                    <Customer>LouisPhilippe</Customer>
+                    <Binstyle>Both</Binstyle>
+                    <Binstatus>Frozen</Binstatus>
+                </NewBinCreationCustomerAug1st>
+                <EditBinCreationTesting>
+                    <Plant>plant1</Plant>
+                    <Floor>floor01</Floor>
+                    <Zone>zone01</Zone>
+                    <Row>rowentry01</Row>
+                    <Column>columnentry1</Column>
+                    <Customer>VanHeusen</Customer>
+                    <Binstyle>Trim</Binstyle>
+                    <Binstatus>Inactive</Binstatus>
+                </EditBinCreationTesting>
+            </BinDetails>
+
+        </UI>
+
+        <DEMO>
+            <!--<AppURL>http://newtours.demoaut.com/</AppURL>-->
+            <AppURL>https://www.freecrm.com/</AppURL>
+        </DEMO>
+
+        <DB>
+
+            <MySql>
+                <MySqlDriver>com.mysql.cj.jdbc.Driver</MySqlDriver>
+                <DBConnectionStringRemote>jdbc:mysql://10.245.128.107:3306/mysql</DBConnectionStringRemote>
+                <DBConnectionStringLocal>jdbc:mysql://localhost:3306/mysql</DBConnectionStringLocal>
+                <UserName>root</UserName>
+                <Password>root</Password>
+            </MySql>
+
+        </DB>
+
+    </Stage>
+
+    <Prod>
+
+        <Urls>
+            <ProdUrl>https://productionUrlHere.com</ProdUrl>
+        </Urls>
+
+    </Prod>
+
+</Project>

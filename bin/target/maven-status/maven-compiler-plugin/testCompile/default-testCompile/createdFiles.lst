@@ -1,0 +1,3 @@
+com\org\ui\stepDefinitions\NewToursDemoSteps.class
+com\org\TestSuiteRunner.class
+com\org\ui\stepDefinitions\CommonStepDefinition.class
